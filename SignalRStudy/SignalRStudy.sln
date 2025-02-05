@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRStudy", "SignalRStudy\SignalRStudy.csproj", "{1753F759-C885-400C-829F-5DABC2CB5814}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondClient", "SecondClient\SecondClient.csproj", "{64B124B4-67C6-4A86-94F6-ACF25C7F58C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1753F759-C885-400C-829F-5DABC2CB5814}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1753F759-C885-400C-829F-5DABC2CB5814}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1753F759-C885-400C-829F-5DABC2CB5814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64B124B4-67C6-4A86-94F6-ACF25C7F58C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B124B4-67C6-4A86-94F6-ACF25C7F58C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B124B4-67C6-4A86-94F6-ACF25C7F58C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B124B4-67C6-4A86-94F6-ACF25C7F58C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
