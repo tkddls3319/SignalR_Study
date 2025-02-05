@@ -4,9 +4,9 @@ namespace SignalRStudy
 {
     public class MessageHub : Hub
     {
-        public async Task Send(string message)
+        public async Task Send(string message, string userid)
         {
-            await Clients.All.SendAsync("receive", message);
+            await Clients.All.SendAsync("receive", message, userid);
         }
     }
 }
