@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SecondClient"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded" Closing="Window_Closing">
     <Grid>
         <TextBox x:Name="textBoxUserId" HorizontalAlignment="Left" Margin="37,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="textBoxMessage" HorizontalAlignment="Left" Margin="37,73,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
